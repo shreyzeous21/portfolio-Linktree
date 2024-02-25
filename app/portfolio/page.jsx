@@ -8,34 +8,34 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "React Commerce",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "Notion Clone",
+    desc: "Clone of Notion website using Next.js and Tailwind CSS.",
+    img: "https://images.unsplash.com/photo-1600267204091-5c1ab8b10c02?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    link: "https://notion-clone-rust.vercel.app/",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "Github Repository",
+    desc: "Github Repository for GitHub API client using Next.js and Tailwind CSS.",
+    img: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2l0aHVifGVufDB8fDB8fHww",
+    link: "https://portfolio-github-sddb.onrender.com/",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "DND Kit",
+    desc: "Dnd kit made with the latest technologies like Next.js, Tailwind CSS, for subject of drag and drop.",
+    img: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bm90ZXN8ZW58MHx8MHx8fDA%3D",
+    link: "https://dnd-kit-puce.vercel.app/",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
+    title: "File Converter",
+    desc: "File converter made with the latest technologies like Next.js, Tailwind CSS, for subject of drag and drop.",
+    img: "https://images.unsplash.com/photo-1562240020-ce31ccb0fa7d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
+    link: "https://modifio-main.vercel.app/",
   },
 ];
 
@@ -75,7 +75,9 @@ const PortfolioPage = () => {
                     {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
+                      See Demo
+                    </button>
                   </Link>
                 </div>
               </div>
